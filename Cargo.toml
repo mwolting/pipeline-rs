@@ -1,0 +1,17 @@
+[package]
+
+name = "pipeline-rs"
+version = "0.1.0"
+authors = ["Matthijs Wolting <matthijswolting@gmail.com>"]
+repository = "https://github.com/mwolting/pipeline-rs"
+license = "MIT"
+
+[lib]
+
+name = "pipeline"
+path = "src/lib.rs"
+crate-type = ["rlib"]
+
+[dependencies]
+log = "^0.2.5"
+
